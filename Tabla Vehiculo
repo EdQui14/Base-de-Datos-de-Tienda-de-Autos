@@ -1,0 +1,1 @@
+CREATE TABLE vehiculo (id_vehiculo int AUTO_INCREMENT not null PRIMARY KEY, tipo ENUM('nuevo', 'seminuevo') not null, marcha varchar(50) not null, modelo varchar(50) not null, ano int not null, precio decimal(10,2) not null, estado_v varchar(20) not null, fingreso_inv date);
