@@ -1,0 +1,4 @@
+INSERT INTO clientes (Nombre, AP, AM, Telefono, Email, Direccion) VALUES
+('Luis', 'Hernández', 'Gómez', '5512345678', 'lhernandezg@example.com', 'Av. Reforma 123, Col. Centro, CDMX'),
+('Maria', 'Lopez', 'Ramirez', '5548761230', 'mlopezr@example.com', 'Calle Olivo 45, Col. Roma, CDMX'),
+('Carlos', 'Sanchez', 'Villa', '5548761230', 'mlopezr@example.com', 'Calle Olivo 45, Col. Roma, CDMX');
