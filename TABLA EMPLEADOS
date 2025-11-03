@@ -1,0 +1,8 @@
+CREATE TABLE EMPLEADOS (
+   id_empleado int PRIMARY KEY AUTO_INCREMENT,
+   nombre_empleado varchar (50) not null,
+    ap_empleado varchar (50),
+    am_empleado varchar (50),
+    cargo varchar (50),
+    fecha_contratacion date DEFAULT CURDATE()
+    );
