@@ -1,4 +1,4 @@
-CREATE TABLE servicio_mantenimiento (
+CREATE TABLE tienda_autos.servicio_mantenimiento (
     id_mantenimiento INT PRIMARY KEY AUTO_INCREMENT, 
     fecha_Servicio DATE NOT NULL,
     descripcion TEXT NOT NULL,
