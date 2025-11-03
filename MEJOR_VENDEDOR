@@ -1,4 +1,4 @@
-CREATE TABLE MEJOR_VENDEDOR (
+CREATE TABLE tienda_autos.MEJOR_VENDEDOR (
    id_mejorvendedor INT PRIMARY KEY AUTO_INCREMENT,
    mes date DEFAULT curdate (),
     año date DEFAULT curdate (),
