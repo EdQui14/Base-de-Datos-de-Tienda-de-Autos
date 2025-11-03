@@ -1,8 +1,4 @@
-CREATE TABLE compra (
-   id_compra int PRIMARY KEY AUTO_INCREMENT not null,
-    fecha_compra date not null,
-    hora time,
-    FOREIGN KEY (id_cliente) REFERENCES clientes (id_cliente), 
-    FOREIGN KEY (id_metodo_depago) REFERENCES Metodo_depago (id_metodo_depago)
-    );
+
+CREATE TABLE tienda_autos.compra (Id_compra INT AUTO_INCREMENT NOT NULL PRIMARY KEY, id_clientes INT NOT NULL, fecha_compra date NOT NULL, id_metodopago INT NOT NULL, hora time NOT NULL); 
+
   
