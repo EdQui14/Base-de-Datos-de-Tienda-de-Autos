@@ -1,0 +1,6 @@
+CREATE TABLE MEJOR_VENDEDOR (
+   id_mejorvendedor INT PRIMARY KEY AUTO_INCREMENT,
+   mes date DEFAULT curdate (),
+    año date DEFAULT curdate (),
+    total_de_ventas INT DEFAULT 0,
+    FOREIGN KEY (id_empleado) REFERENCES EMPLEADOS (id_empleados));
