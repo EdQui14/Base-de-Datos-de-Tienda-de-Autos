@@ -1,4 +1,4 @@
-CREATE tienda_autos.TABLE EMPLEADOS (
+CREATE TABLE tienda_autos.EMPLEADOS (
    id_empleado int PRIMARY KEY AUTO_INCREMENT,
    nombre_empleado varchar (50) not null,
     ap_empleado varchar (50),
