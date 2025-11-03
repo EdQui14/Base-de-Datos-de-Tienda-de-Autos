@@ -1,0 +1,8 @@
+CREATE TABLE servicio_mantenimiento (
+    id_mantenimiento INT PRIMARY KEY AUTO_INCREMENT, 
+    fecha_Servicio DATE NOT NULL,
+    descripcion TEXT NOT NULL,
+    costo DECIMAL (10,2)NOT NULL,
+    Id_vehiculo FOREIGN KEY INT NOT NULL,
+    Id_empleado FOREIGN KEY INT NOT NULL,
+    );
