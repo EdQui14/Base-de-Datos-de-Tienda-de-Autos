@@ -1,0 +1,1 @@
+CREATE TABLE venta (id_venta int AUTO_INCREMENT not null, fventa date not null, precio final decimal(10,2) not null, id_empleado int FOREIGN KEY not null, id_vehiculo int FOREIGN KEY not null);
